@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>RESERVIA</title>
+    <script>src="script.js"</script>
+    <script src="https://kit.fontawesome.com/38b3a3465e.js" crossorigin="anonymous"></script>
+</head>  
+<body>
+<header>
+    <!--le menu fait partie de l'entete -->
+    <div> <id="logo">
+    <img src="Projet 2 - Reservia\images\logo\Reservia@3x.png" alt="Reservia"> 
+    </div>
+    <nav> 
+        <div>
+           <ul>
+            <a href="#Hebergement">Hébergements</a> 
+            <a href="#Activités">Activités</a>
+            <a href="#Inscrit">S'inscrire</a>          
+           </ul>
+        </div>           
+    </nav>   
+</header>
+<section>
+    <p><strong>Trouver votre hébergement pour des vacances de reves </strong> </p>
+    <p>En pleine centre ville ou en pleine nature</p>
+    <div>
+        
+        <form method="POST" action="traitement.php">
+            <p><i class="fas fa-map-marker-alt"></i> 
+                <input type="text" name="localisation" placeholder="Marseille,France">
+                <input type="submit" value="Rechercher"> 
+            </p> 
+        </form>
+    </div>
+    <div>
+         <form > <p> Filtres
+                     <i class="fas fa-money-bill-wave-alt"></i>
+                     <input type="text" name="Economique" placeholder="Economique">
+                                
+                     <i class="fas fa-child"></i>
+                     <input type="text" name="Famille" placeholder="Familal">
+                                       
+                     <i class="fas fa-heart"></i>
+                     <input type="text" name="Romantique" placeholder="Romantique">
+                
+                     <i class="fas fa-dog"></i>
+                     <input type="text" name="Animaux" placeholder="Animaux autorisés">
+                   
+            </form> 
+                   </p>    
+         
+    
+    </div>
+</section>
+</body>
+</html>
