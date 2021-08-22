@@ -70,3 +70,15 @@ p
     color:black;
 
 } 
+/* FOOTER*/
+
+.Footer {
+    display: flex;
+    display: block;
+    display: grid;
+  }
+
+  .footer {
+      
+      width: auto;
+  }
