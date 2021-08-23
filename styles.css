@@ -24,7 +24,26 @@
 .surligne
 {
     text-decoration: none;
+    }
+ .colorBleu 
+ {
+ color: #0065fc;
+ }
+
+.colorBleuClair {
+    color: #deebff;
 }
+.colorGris {
+  color: #f2f2f2;
+}
+.backBleu {
+  background-color: #0065fc;
+}
+.backBleuClair {
+  background-color: #deebff;
+}
+.backGris {
+ background-color: #f2f2f2;}
 /* logo et navigateur*/
 .largeurespace
 {
