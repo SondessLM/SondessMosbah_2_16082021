@@ -20,11 +20,35 @@
     display:flex;
     justify-content:space-between;
     align-items:center;
-}
+}  
 .surligne
 {
     text-decoration: none;
 }
+ .colorBleu 
+ {
+ color: #0065fc;
+ }
+
+.colorBleuClair {
+    color: #deebff;
+}
+.colorGris {
+  color: #f2f2f2;
+}
+.backBleu {
+  background-color: #0065fc;
+}
+.backBleuClair {
+  background-color: #deebff;
+}
+.backGris {
+ background-color: #f2f2f2;}
+ .marge
+ {
+     margin-left: 10%;
+     margin-right:10%;
+ }
 /* logo et navigateur*/
 .largeurespace
 {
@@ -43,17 +67,158 @@ color:#0065FC;
 {
     color:black;
 }
-
 .sizenav
 {
 width: 190px;
 height: 99px ;
 }
-.bordurenav
+.bordurenav {
+   border-top: 1px solid transparent;
+  }
+.bordurenav:hover 
 {
-border-top: 1px solid #0065FC ;
+    border-top: 1px solid #0065fc;
+    cursor: pointer;
+}
+.bordurenav:hover > a 
+  {
+    color: #0065fc
 }
 /*section header*/
+/* le formulaire de recherche */
+
+.logosearch {
+    display: inline-flex;
+    margin-top: 15px;
+    align-items: center;
+  }
+  
+  
+  .iconemap {
+    font-size: 25px;
+    background-color: #f2f2f2;
+    border-radius: 1rem 0 0 1rem;
+    padding: 10px 10px;
+    width: 30px;
+    text-align: center;
+  }
+  
+  input {
+    padding: 5px;
+    font-weight: bold;
+    font-family: "Raleway", "Sans serif";
+    border-right: none;
+    border-left: none;
+    border-top: #f2f2f2 1px solid;
+    border-bottom: #f2f2f2 1px solid;
+    padding: 0 1.5em;
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+  }
+  
+  .boutonderecherche {
+    border-radius: 0px 18px 18px 0;
+    padding: 15px;
+    background-color: #0065fc;
+    color: white;
+    position:unset ;
+    right: 43px;
+  }
+  
+  .loupelogo i {
+    display: none;
+  }
+  /*formulaires des filtres*/
+  .titrefiltres 
+  {
+  margin-top: 50px;
+  font-size: 1.3em;
+  margin: 0 40px 0 0;
+}
+
+.titre {
+  font-family: "Raleway", "Sans serif";
+  font-weight: bold;
+  padding-right: 1.5em;
+  padding-left: 0.5em;
+  cursor: pointer;
+}
+
+.barreFiltre:hover {
+  background: #0065fc;
+  color: #fff;
+  cursor: pointer;
+}
+
+.barreFiltre {
+  display: flex;
+  align-items: center;
+  width: auto;
+  margin-right: 2em;
+  border: 2px solid #d9d9d9;
+  border-radius: 2em;
+  font-weight: bold;
+}
+
+.filtres {
+  display: flex;
+  align-items: center;
+}
+
+.imagefiltre {
+  padding: 15px 15px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  cursor: pointer;
+}
+
+.fas {
+  color: #0065fc;
+}
+
+.fa-map-marker-alt {
+  color: black;
+}
+
+/* la ligne information */
+
+.info {
+  display: flex;
+}
+
+.fa-info {
+  text-align: center;
+  color: #0065fc;
+  border-radius: 100%;
+  height: 33px;
+  width: 33px;
+  border: solid 1px #d9d9d9;
+  padding: 7px;
+  box-sizing: border-box;
+}
+
+.infotext {
+  padding-left: 10px;
+}
+
+/* PARAMETRES HEBERGEMENT ET POPULAIRES */
+/*hebergement*/
+
+#Hebergements {
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    width: 62%;
+    padding: 20px;
+    margin: 0 25px 0 0;
+}
+
+.hebergementetpop 
+{
+  display: flex;
+  margin: 25px 0 50px;
+}
+
 
 .backgris
 {
@@ -61,8 +226,8 @@ border-top: 1px solid #0065FC ;
 }
 h3
 {
-    color:black;
-    text-decoration: none;
+color:black;
+text-decoration: none;
 
 }  
 p
@@ -70,7 +235,164 @@ p
     color:black;
 
 } 
-/* FOOTER*/
+  .cadre1{
+   width: 70%;
+   height: 50%;
+   border: 1px solid transparent;  
+  background-color: #f2f2f2;
+  border-radius: 50px;
+  }
+.hebergementmarseille {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .hotel {
+    width: 30%;
+    width: calc(33.3% - 10px);
+    background: white;
+    border-radius: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 0 5px 20px 5px;
+    box-shadow: 0 5px 16px #0000002e;
+    }
+  
+  .hotel:hover 
+  {
+    cursor: pointer;
+  }
+  
+  .hotel img {
+    background-color: white;
+    border-radius: 15px 15px 0px 0px;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+  }
+  
+  .hotel p {
+    margin: 5px 10px;
+    font-weight: 100;
+  }
+  
+  .hotel h3 {
+    margin: 3px 10px;
+  }
+  
+  .etoiles {
+    margin: 3px 10px;
+  }
+  
+  .main {
+    display: flex;
+  }
+  
+  .afficherplus {
+    color: black;
+    padding-left: 8px;
+  }
+  /*plus populaire*/
+  #populaires {
+    width: 30%;
+   height: 50%;
+   border: 1px solid transparent;  
+  background-color: #f2f2f2;
+  border-radius: 50px;
+ 
+  }
+  
+  .hebergementspop {
+    position: relative;
+  }
+  
+  .hotelpop {
+    display: flex;
+    width: 100%;
+    background: white;
+    border-radius: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 0px 0px 20px 0px;
+    height: 145px;
+    box-shadow: 0 5px 16px #0000002e;
+    }
+  
+  .hotelpop:hover
+   {
+cursor: pointer;
+  }
+  
+  .popimage {
+    background-color: white;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    float: left;
+    width: 45%;
+    height: 92%;
+    border-radius: 15px 0 0 15px;
+    margin: 2px 10px 2px 0px;
+    object-fit: cover;
+  }
+  
+  .fa-chart-line:before {
+    content: "\f201";
+    position: absolute;
+    right: 43px;
+    margin-top: -17px;
+    color: black;
+  }
+  
+  .grey {
+    color: lightgrey;
+  }
+  
+  .hotelpop h3 {
+    margin: 7px;
+  }
+  
+  .hotelpop p {
+    margin: 0px;
+    font-weight: 100;
+  }
+  
+  .etoilespop {
+    margin: 30px;
+  }
+  
+input[type=text]
+{
+    width: 150px;
+    height: 43px;
+  border: 1px solid #F2F2F2;
+  border-radius: 0px;
+  
+}
+*RESPONSIVE MOBILES*/
+
+@media (min-width: 300px) and (max-width: 767px) /* SMARTPHONES */ {
+  /* PARAMETRES GENERAUX */
+
+  
+    /*font-family: 'Raleway-Semibold';*/
+ h2
+ {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  H3 {
+    font-size: 16px;
+  }
+
+  /* HEADER */
+
+  header {
+    margin: 0;
+    width: 100%;
+    padding-left: 5px;
+  }/* FOOTER*/
 
 .Footer {
     display: flex;
@@ -82,3 +404,32 @@ p
       
       width: auto;
   }
+  input[type="search"]
+   {
+      width: 250px;
+      height: 50px;
+    border: 1px solid #F2F2F2;
+    border-radius: 10px;
+    
+  }
+  input[type=submit]
+  {
+    width: 250px;
+    height: 50px;
+  border: 1px solid black ;
+  border-radius: 10px;
+  background-color: #0065fc;
+  cursor: pointer;
+  }
+  .sigle
+  {
+    display: flex;
+    width: 80px;
+    height: 50px;
+  border: 1px solid #F2F2F2;
+  border-radius: 10px;
+  background-color: #F2F2F2;
+  
+  }
+
+
