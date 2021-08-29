@@ -1,0 +1,241 @@
+/* CSS Reservia pour tablette avec double breakpoint */
+
+@media (min-width: 768px) and (max-width: 1024px)
+{
+/* CSS général */
+	body
+	{
+		margin: auto;
+	}
+
+/* Section Header */
+
+	#logo
+	{
+		flex-grow: 1;
+	}
+
+/* Section filtres */
+
+	.list_group .fas
+	{
+   		background-color: #DEEBFF;
+   		color: #0065FC;
+   	}
+
+	.list_group li:hover
+	{
+		background: #DEEBFF;
+		color: #0065FC;
+	}
+
+	.list_group .fas:hover
+	{
+		color: black;
+	}
+
+}
+/* CSS Reservia pour appareils mobiles */
+
+@media (min-width: 320px) and (max-width: 767px)
+
+	/* CSS Général du site */
+{
+	h1
+	{
+		font-size: 1.2em;
+	}
+
+	h2
+	{
+		font-size: 1em;
+	}
+
+	h3
+	{
+		font-size: 0.9em;
+	}
+
+	p
+	{
+		font-size: 0.8em;
+	}
+
+/* Section Zone de recherche */
+	
+    .search
+	{
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+		width: 100%;
+	}
+
+	.search h1, .search p
+	{
+		width: 95%;
+		margin-left: 10px;
+	}
+
+	form
+	{
+		width: 95%;
+		margin: auto;
+	}
+
+	input 
+	{
+		width: 65%;
+		height: 50px;
+		margin: auto;
+		border-width: 2px 0 2px 0;
+	}
+
+	button
+	{
+		background-size: 30px;
+		background-repeat: no-repeat;
+		width: 50px;
+		border-radius: 10px 10px 10px 10px;
+		color: rgba(255,255,255,1);
+		overflow: hidden;
+		color: #0065FC;
+		background-position: center;
+		height: 50px;
+		padding-top: 22px;
+	}
+
+	button:hover
+	{
+		background: #DEEBFF;
+	    color: #000000;
+	    background-size: 30px;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.fas.fa-map-marker-alt
+	{
+		height: 27px;
+	}
+	
+	button span
+	{
+		display: none;
+	}
+
+	.fas.fa-map-marker-alt
+	{
+		padding-top: 20px;
+		padding-bottom: 4px;
+	}
+
+/* Section Header */
+
+	#signup
+	{
+		order: 2;
+		width: auto;
+		margin: auto;
+	}
+
+	#logo
+	{
+		width: 30%;
+		margin-left: 10px;
+	}
+
+	nav
+	{
+		order: 3;
+		width: 100%;
+		flex-wrap: wrap;
+		margin-top: 10px;
+		justify-content: normal;
+		height: 40px;
+		align-items: center;
+	}
+
+	nav a 
+	{
+		margin: 0;
+		padding-left: 40px;
+		padding-right: 28px;
+		border-bottom: 3px solid #F2F2F2;
+		border-top: none;
+	}
+
+	li a
+	{
+		padding: 20px 0;
+	}
+
+	nav a:hover
+	{
+	color: #0065FC;
+	border-bottom: 3px solid #0065FC;
+	border-top: none;
+	}
+
+	header
+	{
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin: 0;
+	}
+
+	#search h1
+	{
+		width: 90%;
+	}
+
+ /* Section Mes filtres */
+
+	#titre_filtres
+	{
+		margin-left: 10px;
+	}
+
+	#filtres
+	{
+		flex-direction: column;
+		margin: 5px 0 0 5px; 
+		margin: auto;
+	}
+
+	#mes_filtres
+	{
+		flex-direction: column;
+		align-items: flex-start;
+		margin-top: 10px;
+	}
+
+	.list_group li
+	{
+		margin-top: 10px;
+		margin-right: 0;
+		margin-left: 0;
+		border: 3px solid #F2F2F2;
+	}
+
+	.list_group li:hover
+	{
+		background: #DEEBFF;
+		color: #0065FC;
+	}
+
+	.list_group .fas:hover
+	{
+		color: black;
+	}
+
+	#mes_filtres ul
+	{
+		margin-left: -34px;
+	}
+
+	#filtres p
+	{
+		margin-left: 10px;
+	}
+}
