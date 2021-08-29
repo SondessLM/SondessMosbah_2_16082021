@@ -371,8 +371,9 @@ input[type=text]
 }
 *RESPONSIVE MOBILES*/
 
-@media (min-width: 300px) and (max-width: 767px) /* SMARTPHONES */ {
-  /* PARAMETRES GENERAUX */
+@media screen (min-width: 300px) and (max-width: 767px) /* SMARTPHONES */ {
+ 
+    /* PARAMETRES GENERAUX */
 
   
     /*font-family: 'Raleway-Semibold';*/
