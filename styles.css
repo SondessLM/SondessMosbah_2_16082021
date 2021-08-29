@@ -369,38 +369,6 @@ input[type=text]
   border-radius: 0px;
   
 }
-*RESPONSIVE MOBILES*/
-
-@media screen (min-width: 300px) and (max-width: 767px) /* SMARTPHONES */ {
- 
-    /* PARAMETRES GENERAUX */
-
-  
-    /*font-family: 'Raleway-Semibold';*/
- h2
- {
-    font-size: 20px;
-    font-weight: bold;
-  }
-
-  H3 {
-    font-size: 16px;
-  }
-
-  /* HEADER */
-
-  header {
-    margin: 0;
-    width: 100%;
-    padding-left: 5px;
-  }/* FOOTER*/
-
-.Footer {
-    display: flex;
-    display: block;
-    display: grid;
-  }
-
   .footer {
       
       width: auto;
@@ -415,8 +383,8 @@ input[type=text]
   }
   input[type=submit]
   {
-    width: 250px;
-    height: 50px;
+    width: 150px;
+    height: 44px;
   border: 1px solid black ;
   border-radius: 10px;
   background-color: #0065fc;
@@ -430,7 +398,4 @@ input[type=text]
   border: 1px solid #F2F2F2;
   border-radius: 10px;
   background-color: #F2F2F2;
-  
-  }
-
-
+  {
