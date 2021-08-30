@@ -3,6 +3,8 @@
 @media (min-width: 768px) and (max-width: 1024px)
 {
 /* CSS général */
+    .marge
+	{	margin-top: 0;}
 	body
 	{
 		margin: auto;
@@ -48,6 +50,7 @@
 
 	h2
 	{
+		padding-top: 7em;
 		font-size: 1em;
 	}
 
@@ -62,6 +65,17 @@
 	}
 
 /* Section Zone de recherche */
+    .Hebergement
+	{
+		padding-top: 5em;
+		margin-right: 5em;
+		border-top: none;
+		
+	}
+	.Activitée
+	{
+		padding-top: 5em;
+	}
 	
     .search
 	{
@@ -134,9 +148,8 @@
 
 	#signup
 	{
-		order: 2;
-		width: auto;
-		margin: auto;
+	    order: 2;
+		margin right: 7em;
 	}
 
 	#logo
@@ -147,13 +160,11 @@
 
 	nav
 	{
-		order: 3;
-		width: 100%;
-		flex-wrap: wrap;
-		margin-top: 10px;
-		justify-content: normal;
+		
+		
 		height: 40px;
-		align-items: center;
+		
+	
 	}
 
 	nav a 
@@ -177,7 +188,7 @@
 	border-top: none;
 	}
 
-	header
+	.header
 	{
 		flex-wrap: wrap;
 		justify-content: space-between;
@@ -203,14 +214,14 @@
 		margin: auto;
 	}
 
-	#mes_filtres
+	#filtres
 	{
 		flex-direction: column;
 		align-items: flex-start;
 		margin-top: 10px;
 	}
 
-	.list_group li
+	.list_group 
 	{
 		margin-top: 10px;
 		margin-right: 0;
