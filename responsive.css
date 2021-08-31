@@ -4,7 +4,7 @@
 {
 /* CSS général */
     .marge
-	{	margin-top: 0;}
+	{	margin:auto;}
 	body
 	{
 		margin: auto;
@@ -68,7 +68,7 @@
     .Hebergement
 	{
 		padding-top: 5em;
-		margin-right: 5em;
+		margin-right: -3em;
 		border-top: none;
 		
 	}
@@ -149,12 +149,12 @@
 	#signup
 	{
 	    order: 2;
-		margin right: 7em;
+		margin-right:10em;
 	}
 
 	#logo
 	{
-		width: 30%;
+		width: 10%;
 		margin-left: 10px;
 	}
 
