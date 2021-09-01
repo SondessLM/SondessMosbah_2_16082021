@@ -21,10 +21,15 @@
     justify-content:space-between;
     align-items:center;
 }  
+.colum
+{
+  display: flex;
+  flex-direction: column;
+}
 
 .surligne
 {
-    text-decoration: none;
+  text-decoration: none;
 }
  .colorBleu 
  {
@@ -45,10 +50,14 @@
 }
 .backGris {
  background-color: #f2f2f2;}
- .marge
+ .colorBlack
  {
-     margin-left: 10%;
-     margin-right:10%;
+   color:black
+ }
+  .marge
+{
+  margin-left: 10%;
+  margin-right:10%;
  }
 /* logo et navigateur*/
 .largeurespace
@@ -117,8 +126,13 @@ height: 99px ;
     height: 20px;
     font-size: 15px;
   }
-  
-  .boutonderecherche {
+  input[type=text]
+  {
+    width: 150px;
+    height: 44px;
+  border: 1px solid #F2F2F2;
+  border-radius: 0px;
+  }  .boutonderecherche {
     border-radius: 0px 18px 18px 0;
     padding: 15px;
     background-color: #0065fc;
@@ -180,11 +194,13 @@ height: 99px ;
 
 .fa-map-marker-alt {
   color: black;
+
 }
 
 /* la ligne information */
 
-.info {
+.info
+{ 
   display: flex;
 }
 
@@ -195,8 +211,9 @@ height: 99px ;
   height: 33px;
   width: 33px;
   border: solid 1px #d9d9d9;
-  padding: 7px;
+  padding: 10px;
   box-sizing: border-box;
+  text-decoration-color:#f2f2f2 ;
 }
 
 .infotext {
@@ -206,197 +223,275 @@ height: 99px ;
 /* PARAMETRES HEBERGEMENT ET POPULAIRES */
 /*hebergement*/
 
-#Hebergements {
-    background-color: #f2f2f2;
-    border-radius: 15px;
-    width: 62%;
-    padding: 20px;
-    margin: 0 25px 0 0;
-}
+/* HEBERGEMENT ET POPULAIRES */
 
-.hebergementetpop 
-{
+.hebergementethotelpopulaire
+ {
   display: flex;
   margin: 25px 0 50px;
 }
 
+/* HEBERGEMENTS */
 
-.backgris
-{
-    background-color: #F2F2F2;
-}
-h3
-{
-color:black;
-text-decoration: none;
-
-}  
-p
-{
-    color:black;
-
-} 
-.cadre1{
-   width: 70%;
-   height: 50%;
-   border: 1px solid transparent;  
+#Hebergement {
   background-color: #f2f2f2;
-  border-radius: 50px;
-  }
+  border-radius: 15px;
+  width: 62%;
+  padding: 20px;
+  margin: 0 25px 0 0;
+}
+
 .hebergementmarseille {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .hotel {
-    width: 30%;
-    width: calc(33.3% - 10px);
-    background: white;
-    border-radius: 20px;
-    padding: 5px;
-    box-sizing: border-box;
-    margin: 0 5px 20px 5px;
-    box-shadow: 0 5px 16px #0000002e;
-    }
-  
-  .hotel:hover 
-  {
-    cursor: pointer;
-  }
-  
-  .hotel img {
-    background-color: white;
-    border-radius: 15px 15px 0px 0px;
-    transition-duration: 0.1s;
-    cursor: pointer;
-    width: 100%;
-    height: 120px;
-    object-fit: cover;
-  }
-  
-  .hotel p {
-    margin: 5px 10px;
-    font-weight: 100;
-  }
-  
-  .hotel h3 {
-    margin: 3px 10px;
-  }
-  
-  .etoiles {
-    margin: 3px 10px;
-  }
-  
-  .main {
-    display: flex;
-  }
-  
-  .afficherplus {
-    color: black;
-    padding-left: 8px;
-  }
-  /*plus populaire*/
-  #populaires {
-    width: auto;
-   height: auto;
-   border: 1px solid transparent;  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hotel {
+  width: 30%;
+  width: calc(33.3% - 10px);
+  background: white;
+  border-radius: 20px;
+  padding: 5px;
+  box-sizing: border-box;
+  margin: 0 5px 20px 5px;
+  box-shadow: 0 5px 16px #0000002e;
+  /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+  -webkit-transition: all 1s ease; /* Safari et Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* Internet Explorer 9 */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
+}
+
+.hotel:hover {
+  -webkit-transform: scale(1.05); /* Safari et Chrome */
+  -moz-transform: scale(1.05); /* Firefox */
+  -ms-transform: scale(1.05); /* Internet Explorer 9 */
+  -o-transform: scale(1.05); /* Opera */
+  transform: scale(1.05);
+}
+
+.hotel img {
+  background-color: white;
+  border-radius: 15px 15px 0px 0px;
+  transition-duration: 0.1s;
+  cursor: pointer;
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+.hotel p {
+  margin: 5px 10px;
+  font-weight: 100;
+}
+
+.hotel h3 {
+  margin: 3px 10px;
+}
+
+.etoiles {
+  margin: 3px 10px;
+}
+
+.main {
+  display: flex;
+}
+
+.afficherplus {
+  color: black;
+  padding-left: 8px;
+}
+
+/* HEBERGEMENTS POPULAIRES */
+
+.pluspopulaires {
   background-color: #f2f2f2;
-  border-radius: 50px;
- 
-  }
-  
-  .hebergementspop {
-    position: relative;
-  }
-  
-  .hotelpop {
-    display: flex;
-    width: 100%;
-    background: white;
-    border-radius: 20px;
-    padding: 5px;
-    box-sizing: border-box;
-    margin: 0px 0px 20px 0px;
-    height: 145px;
-    box-shadow: 0 5px 16px #0000002e;
-    }
-  
-  .hotelpop:hover
-   {
-cursor: pointer;
-  }
-  
-  .popimage {
-    background-color: white;
-    transition-duration: 0.1s;
-    cursor: pointer;
-    float: left;
-    width: 45%;
-    height: 92%;
-    border-radius: 15px 0 0 15px;
-    margin: 2px 10px 2px 0px;
-    object-fit: cover;
-  }
-  
-  .fa-chart-line:before {
-    content: "\f201";
-    position: absolute;
-    right: 43px;
-    margin-top: -17px;
-    color: black;
-  }
-  
-  .grey {
-    color: lightgrey;
-  }
-  
-  .hotelpop h3 {
-    margin: 7px;
-  }
-  
-  .hotelpop p {
-    margin: 0px;
-    font-weight: 100;
-  }
-  
-  .etoilespop {
-    margin: 30px;
-  }
-  
-input[type=text]
-{
-    width: 150px;
-    height: 43px;
-  border: 1px solid #F2F2F2;
-  border-radius: 0px;
+  border-radius: 15px;
+  width: 32%;
+  padding: 20px;
+  display: flex;
+}
+
+.hebergementspop {
+  position: relative;
+}
+
+.hotelpop {
+  display: flex;
+  width: 100%;
+  background: white;
+  border-radius: 20px;
+  padding: 5px;
+  box-sizing: border-box;
+  margin: 0px 0px 20px 0px;
+  height: 145px;
+  box-shadow: 0 5px 16px #0000002e;
+  /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+  -webkit-transition: all 1s ease; /* Safari et Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* Internet Explorer 9 */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
+}
+
+.hotelpop:hover {
+  /* L'image est zoomé au survol */
+
+  -webkit-transform: scale(1.15); /* Safari et Chrome */
+  -moz-transform: scale(1.15); /* Firefox */
+  -ms-transform: scale(1.15); /* Internet Explorer 9 */
+  -o-transform: scale(1.15); /* Opera */
+  transform: scale(1.15);
+}
+
+.imagepop {
+  background-color: white;
+  transition-duration: 0.1s;
+  cursor: pointer;
+  float: left;
+  width: 45%;
+  height: 92%;
+  border-radius: 15px 0 0 15px;
+  margin: 2px 10px 2px 0px;
+  object-fit: cover;
+}
+
+.fa-chart-line:before {
+  content: "\f201";
+  position:absolute;
+  right: 145px;
+  margin-top: -17px;
+  color: black;
+}
+
+.grey {
+  color: lightgrey;
+}
+
+.hotelpop h3 {
+  margin: 7px;
+}
+
+.hotelpop p {
+  margin: 0px;
+  font-weight: 100;
+}
+
+.etoilespop {
+  margin: 30px;
+}
+/* ACTIVITE marseille */
+
+#Activite {
+  width: 80%;
+}
+
+.containerActivites {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  box-sizing: border-box;
+  height: 496px;
+  margin-top: 30px;
+  right: 100px;
   
 }
-  .footer {
-      
-      width: auto;
-  }
-  input[type="search"]
-   {
-      width: 250px;
-      height: 50px;
-    border: 1px solid #F2F2F2;
-    border-radius: 10px;
-    
-  }
-  input[type=submit]
-  {
-    width: 150px;
-    height: 44px;
-  border: 1px solid black ;
-  border-radius: 10px;
-  background-color: #0065fc;
+
+.blocActivite {
+  width: 23%;
+}
+
+.Activite {
+  background-color: white;
+  border-radius: 1.25rem;
+  box-shadow: 0 0 16px #0000002e;
+}
+
+.Activite:hover {
+  /* L'image est zoomé au survol */
+
+  -webkit-transform: scale(1.05); /* Safari et Chrome */
+  -moz-transform: scale(1.05); /* Firefox */
+  -ms-transform: scale(1.05); /* Internet Explorer 9 */
+  -o-transform: scale(1.05); /* Opera */
+  transform: scale(1.05);
   cursor: pointer;
-  }
-  .sigle
-  {
-    display: flex;
-    width: 80px;
-    height: 50px;
-  border: 1px solid #F2F2F2;
-  border-radius: 10px;
-  background-color: #F2F2F2;
-  }
+}
+
+.hebergementsetpop {
+  color: black;
+  font-size: 1.3em;
+  padding-left: 8px;
+}
+
+.Activite img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1.25rem 1.25rem 0 0;
+}
+
+.activitépop1ou4 {
+  height: 440px;
+}
+
+.activitépop2 {
+  height: 200px;
+}
+
+.activitépop3 {
+  height: 110px;
+}
+
+.activitépop5 {
+  height: 140px;
+}
+
+.activitépop6 {
+  height: 140px;
+}
+
+.nomactivite {
+  padding: 0 0px 5px 20px;
+}
+
+.Activite2 {
+  margin: 0px 0px 61px;
+}
+
+.Activite5 {
+  margin: 0px 0px 92px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #f2f2f2;
+}
+
+.Footer {
+  display: flex;
+  max-width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.interieurFooter {
+  width: 40%;
+}
+
+.footerTitre {
+  display: block;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.lignesFooter {
+  color: black;
+  display: block;
+  margin: 15px 0;
+  font-weight: 500;
+}
