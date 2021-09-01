@@ -255,19 +255,9 @@ height: 99px ;
   box-sizing: border-box;
   margin: 0 5px 20px 5px;
   box-shadow: 0 5px 16px #0000002e;
-  /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
-  -webkit-transition: all 1s ease; /* Safari et Chrome */
-  -moz-transition: all 1s ease; /* Firefox */
-  -ms-transition: all 1s ease; /* Internet Explorer 9 */
-  -o-transition: all 1s ease; /* Opera */
-  transition: all 1s ease;
-}
+ {
 
 .hotel:hover {
-  -webkit-transform: scale(1.05); /* Safari et Chrome */
-  -moz-transform: scale(1.05); /* Firefox */
-  -ms-transform: scale(1.05); /* Internet Explorer 9 */
-  -o-transform: scale(1.05); /* Opera */
   transform: scale(1.05);
 }
 
@@ -327,22 +317,12 @@ height: 99px ;
   margin: 0px 0px 20px 0px;
   height: 145px;
   box-shadow: 0 5px 16px #0000002e;
-  /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
-  -webkit-transition: all 1s ease; /* Safari et Chrome */
-  -moz-transition: all 1s ease; /* Firefox */
-  -ms-transition: all 1s ease; /* Internet Explorer 9 */
-  -o-transition: all 1s ease; /* Opera */
-  transition: all 1s ease;
-}
+  }
 
 .hotelpop:hover {
   /* L'image est zoomé au survol */
-
-  -webkit-transform: scale(1.15); /* Safari et Chrome */
-  -moz-transform: scale(1.15); /* Firefox */
-  -ms-transform: scale(1.15); /* Internet Explorer 9 */
-  -o-transform: scale(1.15); /* Opera */
-  transform: scale(1.15);
+  transform: scale(1.05);
+   cursor: pointer;
 }
 
 .imagepop {
@@ -390,6 +370,7 @@ height: 99px ;
 .containerActivites {
   display: flex;
   flex-direction: column;
+  order: initial;
   flex-wrap: wrap;
   align-content: space-between;
   justify-content: space-between;
@@ -413,13 +394,8 @@ height: 99px ;
 
 .Activite:hover {
   /* L'image est zoomé au survol */
-
-  -webkit-transform: scale(1.05); /* Safari et Chrome */
-  -moz-transform: scale(1.05); /* Firefox */
-  -ms-transform: scale(1.05); /* Internet Explorer 9 */
-  -o-transform: scale(1.05); /* Opera */
-  transform: scale(1.05);
-  cursor: pointer;
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 .hebergementsetpop {
@@ -428,7 +404,7 @@ height: 99px ;
   padding-left: 8px;
 }
 
-.Activite img {
+.Activiteimg {
   width: 100%;
   object-fit: cover;
   border-radius: 1.25rem 1.25rem 0 0;
