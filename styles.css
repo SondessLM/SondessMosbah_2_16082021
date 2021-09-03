@@ -99,7 +99,6 @@ height: 99px ;
 
 .logosearch {
     display: inline-flex;
-    margin-top: 15px;
     align-items: center;
   }
   
@@ -179,6 +178,7 @@ height: 99px ;
 .filtres {
   display: flex;
   align-items: center;
+
 }
 
 .imagefiltre {
@@ -380,8 +380,14 @@ height: 99px ;
   
 }
 
+.blocActivite h3
+{
+  text-align: center;
+}
 .blocActivite {
   width: 23%;
+  
+  
 }
 
 .Activite {
@@ -431,7 +437,7 @@ height: 99px ;
 
 .nomactivite {
   padding: 0 0px 5px 20px;
-  order: center ;
+  
 
 }
 
