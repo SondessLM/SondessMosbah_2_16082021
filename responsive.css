@@ -14,7 +14,7 @@
 
 .largeurespace
 {
-    width:20%;
+    width:40%;
 }
 
 	
@@ -72,7 +72,7 @@
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  display: grid;
+  display: flex;
 }
 
 footer {
@@ -117,39 +117,32 @@ footer {
      {
     width: 20px;
      }
-	 .bordurenav {
-		border-top: 1px solid transparent;
-	   }
+	 
    .Hebergement
 	{
 		padding-top: 4em;
-		border-top: none;
+			
 		
 	}
+	
+	 .bordurenav:hover 
+	 {
+		 border-top-color: white;
+		;
+	 }
+	 .bordurenav:hover > a 
+	   {
+		 color: #0065fc
+	 }
+	 
 	.Activitée
 	{
 		padding-top: 4em;
 	}
 	
-    .search
-	{
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 10px;
-		width: 100%;
-	}
+    
 
-	.search h1, .search p
-	{
-		width: 95%;
-		margin-left: 10px;
-	}
-
-	form
-	{
-		width: 95%;
-		margin: auto;
-	}
+	
 
 	input 
 	{
@@ -213,24 +206,8 @@ footer {
 		margin-bottom: 5em;
 	}
 
-	nav
-	{
-		
-		
-		height: 40px;
-		
 	
-	}
-
-	nav a 
-	{
-		margin: 0;
-		padding-left: 40px;
-		padding-right: 28px;
-		border-bottom: 3px solid #F2F2F2;
-		border-top: none;
-	}
-
+	
 	li a
 	{
 		padding: 20px 0;
@@ -254,7 +231,21 @@ footer {
 	{
 		width: 90%;
 	}
-
+	.loupelogo i 
+	 {
+		display: inline;
+		color: white;
+		background-color: #0065fc;
+		padding: 16px;
+		border-radius: 18px;
+		position: relative;
+		right: 52px;
+	  }
+	  .loupelogo :hover
+	  {
+		  cursor: pointer;
+	  }
+	  
  /* Section Mes filtres */
 
 	#titre_filtres
@@ -321,12 +312,10 @@ footer {
 	  /*  HEBERGEMENTS */
 	  #Hebergement
 	   {
-		width: 100%;
+		width: auto;
 		background-color: white;
 		order: 2;
-		width: 100%;
-		margin: 0%;
-		padding: 0;
+		height: auto;
 	  }
 	 
 	  .hebergementmarseille {
@@ -350,45 +339,48 @@ footer {
 	  /* PARAMETRES HEBERGEMENTS POPULAIRES */
 	 
 	  .pluspopulaires {
-	  width: 100%;
-		margin: 0;
+		
+		width: 100%;
+		height: initial;
+		box-sizing: border-box;
+       	margin: 0;
 		padding: 0;
-		order: 1;
-		display: flex;
-		flex-direction: column;
-		  }
-	 
+		order: 1
+	   	  }	 
 	  /* PARAMETRES ACTIVITES */
 	 
 	  .containerActivites {
-		display: grid;
+		display:flex;
+		flex-direction: column;
 		height: auto;
-		margin-bottom: 25px;
-		justify-content: normal;
-		-moz-margin-start: -60px;
+		margin: 0;
+		justify-content: left;
+			
 	  }
 	 
 	  .blocActivite {
-		width: auto;
+		width: 100%;
 	  }
 	 
 	  .Activite img {
-		width: 100%;
+		width: 379px;
 		height: 100px;
+		
 	  }
 	 
 	  .Activite {
-		margin-bottom: 30%;
-		height: 70px;
-		-moz-margin-start: 62px;
+		margin-bottom: 15%;
+		height: 145px;
+		
 	  }
-	 
 	  .nomactivite {
-		padding: 8px 0px 5px 20px;
-		border-radius: 0 0 1.25rem 1.25rem;
-		border-color: transparent;
-		box-shadow: 0 5px 16px #0000002e;
-		margin-top: -12px;
+		padding: 0 0px 5px 20px;
+		order: left ;
+	  
+	  }
+	  .Activite h3 {
+		text-align: left;
+		
 	  }
 	 
 	  /* FOOTER*/
