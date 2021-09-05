@@ -87,7 +87,7 @@ footer {
 }
 /* CSS Reservia pour appareils mobiles */
 
-@media (min-width: 375px) and (max-width: 667px)
+@media (min-width: 300px) and (max-width: 667px)
 
 	/* CSS Général du site */
 {
@@ -98,7 +98,7 @@ footer {
 
 	h2
 	{
-		padding-top: 7em;
+		padding-top: 1em;
 		font-size: 0.9em;
 	}
 
@@ -140,16 +140,18 @@ footer {
 		padding-top: 4em;
 	}
 	
-    
-
-	
+    input[type=text]
+  {
+    width: 145px;
+    height: 44px;
+  }
 
 	input 
 	{
-		width: 65%;
-		height: 50px;
+		width: 50%;
+		height: 40px;
 		margin: auto;
-		border-width: 2px 0 2px 0;
+		border-width: 1px 0 1px 0;
 	}
 
 	button
@@ -177,7 +179,7 @@ footer {
 
 	.fas.fa-map-marker-alt
 	{
-		height: 27px;
+		height: 15px;
 	}
 	
 	button span
@@ -187,7 +189,7 @@ footer {
 
 	.fas.fa-map-marker-alt
 	{
-		padding-top: 20px;
+		padding-top: 1px;
 		padding-bottom: 4px;
 	}
 
@@ -231,15 +233,19 @@ footer {
 	{
 		width: 90%;
 	}
+	.boutonderecherche
+	{
+		display: none;
+	}
 	.loupelogo i 
 	 {
 		display: inline;
 		color: white;
 		background-color: #0065fc;
-		padding: 16px;
+		padding: 18px;
 		border-radius: 18px;
 		position: relative;
-		right: 52px;
+		right: 25px;
 	  }
 	  .loupelogo :hover
 	  {
@@ -248,54 +254,24 @@ footer {
 	  
  /* Section Mes filtres */
 
-	#titre_filtres
-	{
-		margin-left: 10px;
-	}
+ .filtres {
+    display: grid;
+  }
 
-	#filtres
-	{    display: flex;
-		flex-direction: column;
-		flex-wrap: unset;
-		
-		
-	}
+  .titrefiltres {
+    margin-bottom: 10px;
+  }
 
-	#filtres
-	{
-		flex-direction: column;
-		align-items: flex-start;
-		margin-top: 10px;
-	}
+  .barreFiltre {
+    width: 50%;
+    margin-bottom: 10px;
+  }
 
-	.list_group 
-	{
-		margin-top: 10px;
-		margin-right: 0;
-		margin-left: 0;
-		border: 3px solid #F2F2F2;
-	}
-
-	.list_group li:hover
-	{
-		background: #DEEBFF;
-		color: #0065FC;
-	}
-
-	.list_group .fas:hover
-	{
-		color: black;
-	}
-
-	#mes_filtres ul
-	{
-		margin-left: -34px;
-	}
-
-	#filtres p
-	{
-		margin-left: 10px;
-	}
+  .fam {
+    position: absolute;
+    margin: 34px 0 0 55%;
+    width: 35%;
+  }
 
       /* HEBERGEMENTS ET POPULAIRES */
 
@@ -319,16 +295,24 @@ footer {
 	  }
 	 
 	  .hebergementmarseille {
-		display: flex;
-		flex-direction: column;
+		display: grid;
+		background-color: white;
+		width:100%;
+		height: 95%;
 	  }
 	 
 	  .hotel {
-		width: 95%;
-		height: 210px;
+		width: 100%;
+		height: 190px;
 		font-size: 14px;
+		
+		
 	  }
-	 
+	  .hotel img
+	  {
+		width: 100%;
+		border: 20px 20px 20px 20px;
+	  } 
 	  .hotelpop {
 		width: 95%;
 		padding: 5px;
@@ -339,14 +323,13 @@ footer {
 	  /* PARAMETRES HEBERGEMENTS POPULAIRES */
 	 
 	  .pluspopulaires {
-		
-		width: 100%;
-		height: initial;
-		box-sizing: border-box;
-       	margin: 0;
+		  width: 100%;
+	   	height: initial;
+		margin: 0;
 		padding: 0;
 		order: 1
-	   	  }	 
+		  	}	
+	 
 	  /* PARAMETRES ACTIVITES */
 	 
 	  .containerActivites {
@@ -354,7 +337,7 @@ footer {
 		flex-direction: column;
 		height: auto;
 		margin: 0;
-		justify-content: left;
+		justify-content:center;
 			
 	  }
 	 
@@ -363,23 +346,24 @@ footer {
 	  }
 	 
 	  .Activite img {
-		width: 379px;
-		height: 100px;
+		width: 100%;
+		height: 120px;
 		
 	  }
 	 
 	  .Activite {
-		margin-bottom: 15%;
-		height: 145px;
+		margin-bottom: 10%;
+		height: 170px;
 		
 	  }
 	  .nomactivite {
-		padding: 0 0px 5px 20px;
-		order: left ;
+		padding: 0 0 20px 20px;
+		order: center;
 	  
 	  }
 	  .Activite h3 {
-		text-align: left;
+		 margin-right: 1em;
+		 text-align: left;
 		
 	  }
 	 
