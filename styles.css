@@ -1,4 +1,4 @@
-/*differents felx sur tout le corps du projet */
+/*differents felx et commandes sur tout le corps du projet */
 *
 {
     font-family: "Raleway";
@@ -59,7 +59,8 @@
   margin-left: 5%;
   margin-right: 10px;
  }
-/* logo et navigateur*/
+ /*section HEADER -entete de la page-  */
+ /*le menu fait partie de l'entete logo et navigateur*/
 .largeurespace
 {
     width:45%;
@@ -94,8 +95,8 @@ height: 99px ;
   {
     color: #0065fc
 }
-/*section header*/
-/* le formulaire de recherche */
+/*section HEADER*/
+/* formulaire de recherche */
 
 .logosearch {
     display: inline-flex;
@@ -194,6 +195,7 @@ height: 99px ;
 
 .fa-map-marker-alt {
   color: black;
+  margin-left: 10%;
 
 }
 
@@ -220,10 +222,8 @@ height: 99px ;
   padding-left: 10px;
 }
 
-/* PARAMETRES HEBERGEMENT ET POPULAIRES */
-/*hebergement*/
-
-/* HEBERGEMENT ET POPULAIRES */
+/* MAIN corps de la page */
+/*hebergement et populaires*/
 
 .hebergementethotelpopulaire
  {
@@ -231,7 +231,7 @@ height: 99px ;
   margin: 25px 0 50px;
 }
 
-/* HEBERGEMENTS */
+/*SECTION corp de la page partie hebergement*/
 
 #Hebergement {
   background-color: #f2f2f2;
@@ -293,7 +293,7 @@ height: 99px ;
   padding-left: 8px;
 }
 
-/* HEBERGEMENTS POPULAIRES */
+/*SECTION corp de la page partie hebergement populaire */
 
 .pluspopulaires {
   background-color: #f2f2f2;
@@ -337,8 +337,9 @@ height: 99px ;
 }
 
 .fa-chart-line:before {
-  position:absolute;
-  right: 40px;
+  content: "\f201";
+  position: absolute;
+  right: 80px;
   margin-top: -17px;
   color: black;
 }
@@ -359,7 +360,8 @@ height: 99px ;
 .etoilespop {
   margin: 45px;
 }
-/* ACTIVITE marseille */
+/* FIN MAIN*/
+/* SECTION fin page "Activités à Marseille"*/
 
 #Activite {
   width: 80%;
@@ -386,8 +388,7 @@ height: 99px ;
 }
 .blocActivite {
   width: 23%;
-  
-  
+ 
 }
 
 .Activite {
@@ -449,7 +450,7 @@ height: 99px ;
   margin: 0px 0px 92px;
 }
 
-/* FOOTER */
+/* FOOTER -pied de page */
 
 footer {
   background-color: #f2f2f2;

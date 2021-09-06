@@ -5,12 +5,94 @@ body
 {
 	margin: auto;
 }
+@media (min-width: 1121px) and (max-width: 1600px) /* GRAND ECRAN */
+{
+.pluspopulaires
+ {
+  display: grid;
+ }
+}
+/* responsive Reservia pour tablette */
+
+@media (min-width: 885px) and (max-width: 1122px)
+{
+
+/* Section Header */
+
+.largeurespace
+{
+    width:40%;
+}
+
+	
+
+/* Section filtres */
+
+	.list_group .fas
+	{
+   		background-color: #DEEBFF;
+   		color: #0065FC;
+   	}
+
+	.list_group li:hover
+	{
+		background: #DEEBFF;
+		color: #0065FC;
+	}
+
+	.list_group .fas:hover
+	{
+		color: black;
+	}
+
+
+
+/* HEBERGEMENTS ET POPULAIRES */
+
+.hebergementethotelpopulaire
+{
+  margin: 25px 0 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hebergementsetpop {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+/* PARAMETRES HEBERGEMENTS */
+
+#Hebergement {
+  width: 100%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); /*centré dans l'élément parent*/
+  margin-bottom: 20px;
+  border-radius: 0;
+}
+
+/* PARAMETRES HEBERGEMENTS POPULAIRES */
+
+.pluspopulaires {
+  width: 100%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+footer {
+  border-radius: 0;
+}
+}
+
 /* CSS Reservia pour appareils mobiles */
 
-@media (min-width: 375px) and (max-width: 667px)
-
-	/* CSS Général du site */
+@media (min-width: 375px) and (max-width: 886px)
 {
+	/*parametres generaux*/
+
 	h1
 	{
 		font-size: 1em;
@@ -32,10 +114,10 @@ body
 		font-size: 0.8em;
 	}
 
-/* Section Zone de recherche */
-     .largeurespace
-     {
-    width: 20px;
+	/* Section Zone de recherche */
+		.largeurespace
+		{
+		width: 220px;
      }
 	 
    .Hebergement
@@ -43,7 +125,9 @@ body
 		padding-top: 4em;
 		flex:none;
 		border-bottom: #0065fc 2px solid;
-		height: 20px;
+		height: 20.5px;
+		margin-left: 8em;
+		
 			
 		
 	}
@@ -62,9 +146,11 @@ body
 	.Activitée 
 	{
 		padding-top: 4em;
-	    border-bottom: #f2f2f2 2px solid;
-		height: 20px;
-		size: 50px;
+		flex:none;
+	  border-bottom: #f2f2f2 2px solid;
+		height: 20.5px;
+		
+		
 		
 	}
 	input 
@@ -75,39 +161,12 @@ body
 		border-width: 1px 0 1px 0;
 	}
 
-	button
-	{
-		background-size: 30px;
-		background-repeat: no-repeat;
-		width: 50px;
-		border-radius: 10px 10px 10px 10px;
-		color: rgba(255,255,255,1);
-		overflow: hidden;
-		color: #0065FC;
-		background-position: center;
-		height: 50px;
-		padding-top: 22px;
-	}
-
-	button:hover
-	{
-		background: #DEEBFF;
-	    color: #000000;
-	    background-size: 30px;
-		background-repeat: no-repeat;
-		background-position: center;
-	}
-
 	.fas.fa-map-marker-alt
 	{
 		height: 15px;
 	}
 	
-	button span
-	{
-		display: none;
-	}
-
+	
 	.fas.fa-map-marker-alt
 	{
 		padding-top: 1px;
@@ -116,12 +175,27 @@ body
 
 /* Section Header */
 
-	#signup
-	{
-	    padding-bottom: 5em;
-		margin-right: 100px;
+   #sinscrire
+   {
+	flex: none;
+	padding-bottom: 5em;
+	margin-right:320px ;
+	width: 0%;
 	}
-
+	.formulaire h2
+	{
+		font-size: 1.4em;
+		font-weight:bold;
+		text-align: justify;
+	}
+	.formulaire p
+	 {
+      font-size: 1em;
+	}
+	.infotext
+	{
+		font-size: 1em;
+	}
 	#logo
 	{
 		width: 1%;
@@ -152,26 +226,11 @@ body
 	{
 		display: none;
 	}
-	.loupelogo i 
-	 {
-		display: inline;
-		color: white;
-		background-color: #0065fc;
-		padding: 18px;
-		border-radius: 18px;
-		position: relative;
-		right: 25px;
-	  }
 	  .loupelogo :hover
 	  {
 		  cursor: pointer;
 	  }
-	  .inscrire {
-		position: ABSOLUTE;
-		top: 29px;
-		right: 30px;
-	  }
-	
+	 
 	  nav {
 		display: flex;
 		justify-content: space-around;
@@ -180,36 +239,20 @@ body
 		margin-top: 2px;
 	  }
 	
-	  nav ul {
-		border-bottom: 2px solid #f2f2f2;
-	  }
-	
-	  header ul li {
-		margin-left: 0;
-		padding: 10px 46px 5px 11px;
-	  }
-	
-	  header ul li a:hover {
-		border-bottom: 2px solid #0065fc;
-		border-top: none;
-		padding-bottom: 5px;
-	  }
-	
+	     
 	  /* PARAMETRES DU DISPLAY BOUTON LOUPE */
 	
-	  .loupelogo i {
+	 .loupelogo i {
 		display: inline;
 		color: white;
 		background-color: #0065fc;
 		padding: 18px;
 		border-radius: 18px;
 		position: relative;
-		right: 52px;
+		right: 11px;
 	  }
 	
-	  .boutonderecherche {
-		display: none;
-	  }
+	 
 	
 	  /* FILTRES */
 	
@@ -231,9 +274,7 @@ body
 		margin: 20px 0px 100px 55%;
 		width: 35%;
 	  }
-	
-	  
- 
+
       /* HEBERGEMENTS ET POPULAIRES */
 
       .hebergementethotelpopulaire
@@ -344,88 +385,10 @@ body
 	 
 	  .interieurFooter {
 		width: auto;
-	  }
-}	  
+
+	}
+}
+	  
 
 	  		
-/* responsive Reservia pour tablette */
 
-@media (min-width: 668px) and (max-width: 1278px)
-{
-
-/* Section Header */
-
-.largeurespace
-{
-    width:40%;
-}
-
-	
-
-/* Section filtres */
-
-	.list_group .fas
-	{
-   		background-color: #DEEBFF;
-   		color: #0065FC;
-   	}
-
-	.list_group li:hover
-	{
-		background: #DEEBFF;
-		color: #0065FC;
-	}
-
-	.list_group .fas:hover
-	{
-		color: black;
-	}
-
-
-
-/* HEBERGEMENTS ET POPULAIRES */
-
-.hebergementethotelpopulaire
-{
-  margin: 25px 0 50px;
-  display: flex;
-  flex-direction: column;
-}
-
-.hebergementsetpop {
-  text-align: center;
-  padding-bottom: 5px;
-}
-
-/* PARAMETRES HEBERGEMENTS */
-
-#Hebergement {
-  width: 100%;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%); /*centré dans l'élément parent*/
-  margin-bottom: 20px;
-  border-radius: 0;
-}
-
-/* PARAMETRES HEBERGEMENTS POPULAIRES */
-
-.pluspopulaires {
-  width: 100%;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-}
-
-footer {
-  border-radius: 0;
-}
-}
-
-@media (min-width: 1025px) and (max-width: 1600px) /* GRAND ECRAN */ 
-{
-.pluspopulaires {
-  display: grid;
-}
-}
