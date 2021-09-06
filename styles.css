@@ -48,18 +48,22 @@
 .backBleuClair {
   background-color: #deebff;
 }
-.backGris {
- background-color: #f2f2f2;}
- .colorBlack
+.backGris 
+{
+ background-color: #f2f2f2;
+}
+
+.colorBlack
  {
-   color:black
+   color:black;
  }
   .marge
-{
+ {
   margin-left: 5%;
   margin-right: 10px;
+  
  }
- /*section HEADER -entete de la page-  */
+ /*serction HEADER -entete de la page-  */
  /*le menu fait partie de l'entete logo et navigateur*/
 .largeurespace
 {
@@ -187,12 +191,8 @@ height: 99px ;
   border-radius: 50%;
   background-color: #d9d9d9;
   cursor: pointer;
+  
 }
-
-.fas {
-  color: #0065fc;
-}
-
 .fa-map-marker-alt {
   color: black;
   margin-left: 10%;
@@ -208,20 +208,34 @@ height: 99px ;
 
 .fa-info {
   text-align: center;
-  color: #0065fc;
   border-radius: 100%;
-  height: 33px;
-  width: 33px;
+  height: 20px;
+  width: 20px;
   border: solid 1px #d9d9d9;
   padding: 10px;
-  box-sizing: border-box;
-  text-decoration-color:#f2f2f2 ;
+  color: #0065fc;
 }
 
 .infotext {
-  padding-left: 10px;
+  padding-left: 6px;
 }
-
+.fa-money-bill-wave 
+{
+  color: #0065fc;
+}
+.fa-child
+{
+  color: #0065fc;
+}
+.fa-heart 
+{
+  color: #0065fc;
+}
+ .fa-dog
+{
+    color: #0065fc;
+}
+ 
 /* MAIN corps de la page */
 /*hebergement et populaires*/
 

@@ -112,64 +112,64 @@ footer {
 		font-size: 0.8em;
 	}
 
-	/* Section Zone de recherche */
-		.largeurespace
-		{
-		width: 220px;
-     }
-	 
-   .Hebergement
-	{
-		padding-top: 4em;
-		flex:none;
-		border-bottom: #0065fc 2px solid;
-		height: 20.5px;
-		margin-left: 8em;
 	
-	}
-	
-	 .bordurenav:hover 
-	 {
-		 border-top-color: transparent;
-		 border-bottom-color:#0065fc;
-		
-	 }
-	 .bordurenav:hover > a 
-	   {
-		 color: #0065fc;
-	 }
-	 
-	.Activitée 
-	{
-		padding-top: 4em;
-		flex:none;
-	  border-bottom: #f2f2f2 2px solid;
-		height: 20.5px;
-		
-		
-		
-	}
-	input 
-	{
-		width: 50%;
-		height: 40px;
-		margin: auto;
-		border-width: 1px 0 1px 0;
-	}
+/*section HEADER -entete de la page-  */
+    /*le menu fait partie de l'entete logo et navigateur*/
 
-	.fas.fa-map-marker-alt
+	.largeurespace
 	{
-		height: 15px;
-	}
-	
-	
-	.fas.fa-map-marker-alt
-	{
-		padding-top: 1px;
-		padding-bottom: 4px;
-	}
+	width: 220px;
+ }
+ 
+.Hebergement
+{
+	padding-top: 4em;
+	flex:none;
+	border-bottom: #0065fc 2px solid;
+	height: 20.5px;
+	margin-left: 8em;
 
-/* Section Header */
+}
+
+ .bordurenav:hover 
+ {
+	 border-top-color: transparent;
+	 border-bottom-color:#0065fc;
+	
+ }
+ .bordurenav:hover > a 
+   {
+	 color: #0065fc;
+ }
+ 
+.Activitée 
+{
+	padding-top: 4em;
+	flex:none;
+  border-bottom: #f2f2f2 2px solid;
+	height: 20.5px;
+	
+	
+	
+}
+input 
+{
+	width: 50%;
+	height: 40px;
+	margin: auto;
+	border-width: 1px 0 1px 0;
+}
+
+.fas.fa-map-marker-alt
+{
+	height: 15px;
+}
+
+.fas.fa-map-marker-alt
+{
+	padding-top: 1px;
+	padding-bottom: 4px;
+}
 
    #sinscrire
    {
@@ -178,6 +178,9 @@ footer {
 	margin-right:320px ;
 	width: 0%;
 	}
+/*section HEADER*/
+     /* formulaire de recherche */
+
 	.formulaire h2
 	{
 		font-size: 1.4em;
@@ -200,7 +203,7 @@ footer {
 	
 	}
 
-			nav a:hover
+	 nav a:hover
 	{
 	color: #0065FC;
 	border-bottom: 3px solid #0065FC;
@@ -236,7 +239,7 @@ footer {
 	  }
 	
 	     
-	  /* PARAMETRES DU DISPLAY BOUTON LOUPE */
+	  /* parametres d'affichage du bouton loupe */
 	
 	 .loupelogo i {
 		display: inline;
@@ -250,7 +253,7 @@ footer {
 	
 	 
 	
-	  /* FILTRES */
+	   /*formulaires des filtres*/
 	
 	  .filtres {
 		display: grid;
@@ -271,26 +274,24 @@ footer {
 		width: 35%;
 	  }
 
-      /* HEBERGEMENTS ET POPULAIRES */
+/* MAIN corps de la page */
+    /*hebergement et populaires*/
 
       .hebergementethotelpopulaire
       {
 		  
 		display: flex;
 		flex-direction: column;
-		
-		
-		
-	  }
+		}
 	 
-	  /*  HEBERGEMENTS */
+	  /*SECTION corp de la page partie hebergement*/
 	  #Hebergement
 	  {
 	   width: 100%;
 	   position: relative;
 	   left: 50%;
 	   transform: translateX(-50%); /*centré dans l'élément parent*/
-	   margin-bottom: 20px;
+	   margin-bottom: 10px;
 	   border-radius: 0;
 	   background-color: white;
 		order: 2;
@@ -327,7 +328,7 @@ footer {
 		
 	  }
 	 
-	  /* PARAMETRES HEBERGEMENTS POPULAIRES */
+	/*SECTION corp de la page partie hebergement populaire */
 	  
 	.pluspopulaires
 	{
@@ -336,9 +337,9 @@ footer {
         left: 50%;
         transform: translateX(-50%);
 		border-radius: 0;
-        display: flex;
+		display: flex;
 		order: 1
-		
+	
 		  	}	
 	 
 /* FIN MAIN*/
