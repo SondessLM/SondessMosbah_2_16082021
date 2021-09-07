@@ -61,7 +61,8 @@
  {
   margin-left: 5%;
   margin-right: 10px;
-  
+  margin-top: 0%;
+  margin-bottom: 0%;
  }
  /*serction HEADER -entete de la page-  */
  /*le menu fait partie de l'entete logo et navigateur*/
@@ -92,7 +93,7 @@ height: 99px ;
   }
 .bordurenav:hover 
 {
-    border-top: 1px solid #0065fc;
+    border-top: 3px solid #0065fc;
     cursor: pointer;
 }
 .bordurenav:hover > a 
@@ -102,10 +103,11 @@ height: 99px ;
 /*section HEADER*/
 /* formulaire de recherche */
 
-.logosearch {
+.logosearch 
+{
     display: inline-flex;
     align-items: center;
-  }
+}
   
   
   .iconemap {
@@ -134,9 +136,10 @@ height: 99px ;
   {
     width: 150px;
     height: 44px;
-  border: 1px solid #F2F2F2;
-  border-radius: 0px;
-  }  .boutonderecherche {
+    border: 1px solid #F2F2F2;
+    border-radius: 0px;
+  }  
+  .boutonderecherche {
     border-radius: 0px 18px 18px 0;
     padding: 15px;
     background-color: #0065fc;

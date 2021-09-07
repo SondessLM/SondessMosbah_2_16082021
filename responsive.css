@@ -1,6 +1,5 @@
 /* CSS général */
-.marge
-{	margin:5%;}
+
 body
 {
 	margin: auto;
@@ -87,7 +86,7 @@ footer {
 
 /* CSS Reservia pour appareils mobiles */
 
-@media (min-width: 375px) and (max-width: 886px)
+@media all and (max:882*385.833)
 {
 	/*parametres generaux*/
 
@@ -230,7 +229,8 @@ input
 		  cursor: pointer;
 	  }
 	 
-	  nav {
+	  nav 
+	  {
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
@@ -391,8 +391,7 @@ input
 		width: auto;
 
 	}
-}
-	  
+}	  
 
 	  		
 
