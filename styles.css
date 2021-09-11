@@ -325,11 +325,12 @@ height: 99px ;
 }
 
 .hotelpop {
+  display: flex;
   background: white;
   border-radius: 20px;
   padding: 5px;
   margin: 0px 0px 20px 0px;
-  height: 130px;
+  height: 145px;
   box-shadow: 0 5px 16px #0000002e;
   }
 
@@ -351,7 +352,7 @@ height: 99px ;
 }
 
 .fa-chart-line {
-  content:icon;
+  
 
   position: relative;
   right: -8em;
@@ -383,18 +384,15 @@ height: 99px ;
 }
 
 .containerActivites {
-  display: flex;
-  flex-direction: column;
-  order:unset;
-  flex-wrap: wrap;
-  align-content: space-between;
-  justify-content: space-between;
-  margin-bottom: 100px;
-  box-sizing: border-box;
-  height: 496px;
-  margin-top: 30px;
-  right: 100px;
-  
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ height: 490px;
+ align-content: space-between;
+ justify-content: space-between;
+  margin-top: 40px;
+ margin-bottom: 10px;
+ 
 }
 
 .blocActivite h3
@@ -430,30 +428,30 @@ height: 99px ;
   border-radius: 1.25rem 1.25rem 0 0;
 }
 
-.activitépop1ou4 {
+.activitepop1ou4 {
   height: 430px;
   width: 260px;
 }
 
-.activitépop2 {
-  height: 200px;
+.activitepop2 {
+  height: 210px;
 }
 
-.activitépop3 {
-  height: 110px;
+.activitepop3 {
+  height: 120px;
 }
 
-.activitépop5 {
-  height: 140px;
+.activitepop5 {
+  height: 160px;
 }
 
-.activitépop6 {
-  height: 140px;
+.activitepop6 {
+  height: 160px;
 }
 
 .nomactivite {
   padding: 0 0px 5px 20px;
-  order: center ;
+  
 
 }
 
