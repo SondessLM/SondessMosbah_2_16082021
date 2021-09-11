@@ -325,12 +325,11 @@ height: 99px ;
 }
 
 .hotelpop {
-  display: flex;
   background: white;
   border-radius: 20px;
   padding: 5px;
   margin: 0px 0px 20px 0px;
-  height: 145px;
+  height: 130px;
   box-shadow: 0 5px 16px #0000002e;
   }
 
