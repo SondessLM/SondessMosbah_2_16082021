@@ -4,7 +4,9 @@
 {
 .pluspopulaires
  {
-  display: grid;
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
  }
 }
 /* responsive Reservia pour tablette */
@@ -43,7 +45,18 @@
   right: 4.5%;
   margin-bottom: 20px;
  }
-
+.etoilespop
+{
+	margin:87px;
+}
+.etoilespop1
+{
+	margin:85px;
+}
+.etoilespop2
+{
+	margin:86px;
+}
 /*SECTION corp de la page partie hebergement populaire */
 
 .pluspopulaires {
@@ -95,20 +108,20 @@ footer {
 	width: 250px;
  }
  
-.Hebergement
-{
+ .Hebergement
+ {
 	padding-top: 4em;
 	flex: none;
 	border-bottom: #0065fc 2px solid;
 	margin-left: 10em;
 	height: 20.5px;
 	
-} 
-.sizenav
-{
-width: 150px;
+ } 
+ .sizenav
+ {
+  width: 150px;
 
-}
+ }
  .bordurenav:hover 
  {
 	 border-top-color: transparent;
@@ -120,34 +133,32 @@ width: 150px;
 	 color: #0065fc;
    }
  
-.Activitee 
-{
+ .Activitee 
+ {
 	padding-top: 4em;
 	flex: none;
     border-bottom: #f2f2f2 2px solid;
 	height: 21px;
 	
-	
-	
-}
-input 
-{
+ }
+ input 
+ {
 	width: 50%;
 	height: 40px;
 	margin: auto;
 	border-width: 1px 0 1px 0;
-}
+ }
 
-.fas.fa-map-marker-alt
-{
+ .fas.fa-map-marker-alt
+ {
 	height: 15px;
-}
+ } 
 
-.fas.fa-map-marker-alt
-{
+ .fas.fa-map-marker-alt
+ {
 	padding-top: 1px;
 	padding-bottom: 4px;
-}
+ }
 
    #sinscrire
    {
@@ -157,7 +168,7 @@ input
 	width: 0%;
 	flex:none
 	}
-/*section HEADER*/
+ /*section HEADER*/
      /* formulaire de recherche */
 
 	.formulaire h2
@@ -236,7 +247,11 @@ input
 	   /*formulaires des filtres*/
 	
 	  .filtres {
-		display: grid;
+		display: flex;
+		flex-direction:column;
+		flex-wrap: wrap;
+		align-content: space-between;
+		justify-content: space-between;
 	  }
 	
 	  .titrefiltres {
@@ -250,8 +265,8 @@ input
 	
 	  .position {
 		position: absolute;
-		margin: 20px 0px 100px 55%;
-		width: 35%;
+		margin: 9% 0px 100px 55%;
+		width: 33%;
 	  }
 
 /* MAIN corps de la page */
@@ -262,6 +277,7 @@ input
 		  
 		display: flex;
 		flex-direction: column;
+		margin-right: inherit;
 		}
 	 
 	  /*SECTION corp de la page partie hebergement*/
@@ -285,7 +301,7 @@ input
 	 
 	  .hotel {
 		width: 100%;
-		height: 150px;
+		height: 170px;
 		font-size: 14px;
 		
 		
@@ -312,10 +328,22 @@ input
 	}	
 	.fa-chart-line {
 	 position: relative;
-	 right: -4em;
+	 
 				
 	}
 			  
+	.etoilespop
+	{
+      margin: 56px 10px 60px 60px;
+	}
+	.etoilespop1
+     {
+     margin: 59px 10px 60px 60px;
+      } 
+      .etoilespop2
+     {
+	   margin: 60px 10px 60px 60px;
+     }
 	 
 /* FIN MAIN*/
      /* SECTION fin page "Activités à Marseille"*/
@@ -364,6 +392,8 @@ input
 	  .Footer {
 		display: flex;
 		flex-direction: column;
+		margin-top: 10px;
+		
 	  }
 	  .interieurFooter {
 		width: auto;

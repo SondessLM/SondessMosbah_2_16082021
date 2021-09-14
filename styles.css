@@ -332,8 +332,8 @@ height: 99px ;
  
   background: white;
   border-radius: 20px;
-  padding: 5px;
-  margin: 0px 0px 20px 0px;
+  padding: 5px 5px 0px 5px;
+  margin: 0px 0px 12px 0px;
   height: 145px;
   box-shadow: 0 5px 16px #0000002e;
   }
@@ -359,7 +359,7 @@ height: 99px ;
   
 
   position: relative;
-  right: -10em;
+  right: -8em;
   
   color: black;
 }
@@ -373,20 +373,20 @@ height: 99px ;
 }
 
 .hotelpop p {
-  margin: 0px;
+  margin: 7px;
   font-weight: 100;
 }
 
 .etoilespop {
-  margin: 77px;
+  margin: 70px;
 }
 .etoilespop1
 {
-  margin: 55px;
+  margin: 48px;
 }
 .etoilespop2
 {
-  margin: 76px;
+  margin: 69px;
 }
 /* FIN MAIN*/
 /* SECTION fin page "Activités à Marseille"*/
@@ -430,8 +430,7 @@ height: 99px ;
 
 .hebergementsetpop {
   color: black;
-  font-size: 1.3em;
-  padding-left: 8px;
+  
 }
 
 .Activite img {
@@ -479,14 +478,14 @@ height: 99px ;
 
 footer {
   background-color: #f2f2f2;
-  margin-top:35px
+  margin-top:15px
 }
 
 .Footer {
   display: flex;
   max-width: 100%;
-  padding: 0px 20px;
-  box-sizing: border-box;
+  padding: 0px 30px;
+  margin-bottom: 3px;
 }
 .interieurFooter {
   width: 40%;
