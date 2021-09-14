@@ -45,18 +45,7 @@
   right: 4.5%;
   margin-bottom: 20px;
  }
-.etoilespop
-{
-	margin:87px;
-}
-.etoilespop1
-{
-	margin:85px;
-}
-.etoilespop2
-{
-	margin:86px;
-}
+
 /*SECTION corp de la page partie hebergement populaire */
 
 .pluspopulaires {
@@ -65,12 +54,32 @@
   right:4.5%;
   display: flex;
 }
+}
+			  
+.etoilespop
+{
+  margin: 68px;
+}
+
+  .etoilespop2
+ {
+   margin: 68px;
+ }
+
 /* fin Main*/
+/*SECTION activités Marseille*/
+.containerActivites {
+	
+	 margin-top: 20px;
+	margin-bottom: 40px;
+	
+   }
+   
 /*FOOTER -pied de la page*/
 footer {
   border-radius: 0;
 }
-}
+
 
 /* CSS Reservia pour appareils mobiles */
 
@@ -241,7 +250,7 @@ footer {
 		position: relative;
 		right: 11px;
 	  }
-	
+	 
 	 
 	
 	   /*formulaires des filtres*/
