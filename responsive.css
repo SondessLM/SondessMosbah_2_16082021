@@ -56,15 +56,7 @@
 }
 }
 			  
-.etoilespop
-{
-  margin: 68px;
-}
 
-  .etoilespop2
- {
-   margin: 68px;
- }
 
 /* fin Main*/
 /*SECTION activités Marseille*/
@@ -335,6 +327,11 @@ footer {
 		order: 1
 	
 	}	
+	.hotelpop
+	{
+		margin: 12px 12px 12px 12px;
+		height: 145px
+	}
 	.fa-chart-line {
 	 position: relative;
 	 
