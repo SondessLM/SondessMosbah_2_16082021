@@ -9,6 +9,12 @@
   flex-wrap: wrap;
  }
 }
+.marge
+ {
+  width:90%;
+  margin:auto;
+
+ }
 /* responsive Reservia pour tablette */
 
 @media (min-width: 897px) and (max-width: 1122px)
@@ -16,10 +22,7 @@
 
 /*section HEADER*/
 
-.largeurespace
-{
-    width:40%;
-}
+
 
 /* MAIN corps de la page */	
 /* hebergement et populaire  */
@@ -104,23 +107,24 @@ footer {
 /*section HEADER -entete de la page-  */
     /*le menu fait partie de l'entete logo et navigateur*/
 
+	
 	.largeurespace
 	{
-	width: 250px;
+	width: 220px;
  }
  
  .Hebergement
  {
-	padding-top: 4em;
-	flex: none;
 	border-bottom: #0065fc 2px solid;
-	margin-left: 10em;
-	height: 20.5px;
-	
+    margin-left: 15em;
+    padding-top: 4em;
+    flex: none;
+    height: 21px;
+	padding-top: 4em;
  } 
  .sizenav
  {
-  width: 150px;
+  width: 180px;
 
  }
  .bordurenav:hover 
@@ -163,12 +167,14 @@ footer {
 
    #sinscrire
    {
-	flex: none;
-	padding-bottom: 5em;
-	margin-right:360px ;
-	width: 0%;
-	flex:none
-	}
+	   
+    margin-right: 300px;
+    flex: none;
+    display: inline;
+    margin-left: -60px;
+     float: left;
+   }
+		
  /*section HEADER*/
      /* formulaire de recherche */
 
@@ -184,7 +190,7 @@ footer {
 	}
 	.infotext
 	{
-		font-size: 1em;
+		font-size: 0.98em;
 	}
 	#logo
 	{
@@ -221,14 +227,6 @@ footer {
 		  cursor: pointer;
 	  }
 	 
-	  nav 
-	  {
-		display: flex;
-		justify-content: space-around;
-		align-items: center;
-		width: 100%;
-		margin-top: 2px;
-	  }
 	
 	     
 	  /* parametres d'affichage du bouton loupe */
@@ -332,6 +330,7 @@ footer {
 		margin: 12px 12px 12px 12px;
 		height: 145px
 	}
+	
 	.fa-chart-line {
 	 position: relative;
 	 

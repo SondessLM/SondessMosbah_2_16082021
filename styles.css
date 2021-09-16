@@ -59,10 +59,9 @@
  }
   .marge
  {
-  margin-left: 5%;
-  margin-right: 10px;
-  margin-top: 0%;
-  margin-bottom: 0%;
+  width:80%;
+  margin:auto;
+
  }
  /*serction HEADER -entete de la page-  */
  /*le menu fait partie de l'entete logo et navigateur*/
@@ -271,7 +270,7 @@ height: 99px ;
   background: white;
   border-radius: 20px;
   padding: 5px;
-  margin: 10px 10px 35px 9px;
+  margin: 10px 8px 8px 8px;
   box-shadow: 0 5px 16px #0000002e;
 }
 
@@ -358,7 +357,7 @@ height: 99px ;
   
 
   position: relative;
-  right: -8em;
+  left: 7em;
   
   color: black;
 }
