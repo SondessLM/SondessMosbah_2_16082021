@@ -1,6 +1,11 @@
 /* CSS général */
+.marge
+{
+	width: 90%;
+	margin:auto;
+}
 
-@media (min-width: 1121px) and (max-width: 1600px) /* Grand ecran*/
+@media (min-width: 1440px) and (max-width: 1600px) /* Grand ecran*/
 {
 .pluspopulaires
  {
@@ -9,19 +14,10 @@
   flex-wrap: wrap;
  }
 }
-.marge
- {
-  width:90%;
-  margin:auto;
-
- }
 /* responsive Reservia pour tablette */
 
-@media (min-width: 897px) and (max-width: 1122px)
+@media (min-width: 897px) and (max-width: 1441px)
 {
-
-/*section HEADER*/
-
 
 
 /* MAIN corps de la page */	
@@ -29,7 +25,8 @@
 
 .hebergementethotelpopulaire
 {
-  margin: 25px 0 50px;
+	
+  margin-left: 50px;
   display: flex;
   flex-direction: column;
 }
