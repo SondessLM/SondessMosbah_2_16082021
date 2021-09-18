@@ -16,7 +16,7 @@
 }
 /* responsive Reservia pour tablette */
 
-@media (min-width: 897px) and (max-width: 1441px)
+@media (min-width: 923px) and (max-width: 1441px)
 {
 
 
@@ -32,7 +32,7 @@
 }
 
 .hebergementsetpop {
-  text-align: center;
+  text-align: left;
   padding-bottom: 10px;
 }
 
@@ -54,8 +54,12 @@
   right:4.5%;
   display: flex;
 }
+.fa-chart-line {
+    position: relative;
+    left: 26em;
+    color: black;
 }
-			  
+}			  
 
 
 /* fin Main*/
@@ -75,7 +79,7 @@ footer {
 
 /* CSS Reservia pour appareils mobiles */
 
-@media (min-width: 300px) and (max-width: 898px)
+@media (min-width: 300px) and (max-width: 924px)
 {
 	/*parametres generaux*/
 
