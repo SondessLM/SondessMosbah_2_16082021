@@ -16,7 +16,7 @@
 }
 /* responsive Reservia pour tablette */
 
-@media (min-width: 923px) and (max-width: 1441px)
+@media (min-width: 943px) and (max-width: 1441px)
 {
 
 
@@ -56,8 +56,8 @@
 }
 .fa-chart-line {
     position: relative;
-    left: 26em;
-    color: black;
+    left: 22em;
+   
 }
 }			  
 
@@ -79,7 +79,7 @@ footer {
 
 /* CSS Reservia pour appareils mobiles */
 
-@media (min-width: 300px) and (max-width: 924px)
+@media (min-width: 300px) and (max-width: 943px)
 {
 	/*parametres generaux*/
 
