@@ -117,7 +117,7 @@ footer {
  .Hebergement
  {
 	border-bottom: #0065fc 2px solid;
-    margin-left: -10em;
+    margin-left: -7.4em;
     padding-top: 4em;
     flex:none;
     height: 21px;
@@ -333,9 +333,10 @@ footer {
 		height: 145px
 	}
 	
-	.fa-chart-line {
+	.fa-chart-line 
+	{
 	 position: relative;
-	 
+	 margin-left: 10px;
 				
 	}
 			  
