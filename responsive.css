@@ -88,20 +88,48 @@ margin-top: 20px;
 
 /* fin Main*/
 /*SECTION activités Marseille*/
+
 .containerActivites {
 	
-	 margin-top: 20px;
+	margin-top: 10px;
 	margin-bottom: 40px;
-	
+	height: 500px;
+}
+   
+   .blocActivite
+   {
+	   width: 32%;
+	   height: 49%;
+	   
    }
+   .activitepop1ou4 {
+	height: 70%;
+	width: 70%
+  }
+  
+  .activitepop2 {
+	height:70%
+  }
+  
+  .activitepop3 {
+	height: 70%;
+	width:70% ;
+  }
+  
+  .activitepop5 {
+	height: 70%;
+	width:70% ;
+  }
+  
+  .activitepop6 {
+	height: 70%;
+	width: 70%;
+  }
+  
    
 /*FOOTER -pied de la page*/
 .footer {
   border-radius: 0;
-}
-.containerActivites
-{
-	height: 500px;
 }
 
 
@@ -145,7 +173,7 @@ margin-top: 20px;
  .Hebergement
  {
 	
-    margin-left: -8.4em;
+    margin-left: -8.7em;
     padding-top: 4em;
     flex:none;
     height: 39px;
@@ -154,7 +182,7 @@ margin-top: 20px;
  
  .sizenav
  {
-  width: 180px;
+  width: 190px;
 
  }
  .bordurenav {
