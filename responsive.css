@@ -148,8 +148,8 @@ margin-top: 20px;
     margin-left: -8.4em;
     padding-top: 4em;
     flex:none;
-    height: 21px;
-	padding-top: 4em;
+    height: 27px;
+	
  } 
  
  .sizenav
@@ -158,13 +158,14 @@ margin-top: 20px;
 
  }
  .bordurenav {
-	border-bottom: 1px solid #f2f2f2;
+	
+	border-bottom: 2px solid #f2f2f2;
 	border-top: transparent;
    }
 
    .bordurenav:hover 
    {
-	 border-bottom: 3px solid #0065FC;
+	 border-bottom: 2px solid #0065FC;
 	 border-top: transparent;
 	 cursor: pointer;
     }
@@ -179,13 +180,13 @@ margin-top: 20px;
 	padding-top: 4em;
 	flex: none;
     border-bottom: #f2f2f2 2px solid;
-	height: 21px;
+	height: 27px;
 	
  }
- input 
+ input[type=text]
  {
-	width: 50%;
-	height: 40px;
+	width: 200px;
+	height: 46px;
 	margin: auto;
 	border-width: 1px 0 1px 0;
  }
