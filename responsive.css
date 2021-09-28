@@ -5,7 +5,7 @@
 	margin:auto;
 }
 
-@media (min-width: 1440px) and (max-width: 1600px) /* Grand ecran*/
+@media (min-width: 1443px) and (max-width: 1600px) /* Grand ecran*/
 {
 .pluspopulaires
  {
@@ -16,20 +16,35 @@
 }
 /* responsive Reservia pour tablette */
 
-@media (min-width: 943px) and (max-width: 1441px)
+@media (min-width: 630px) and (max-width: 1444px)
 {
+.filtres {
+ display: flex;
+	flex-wrap: wrap;
 
-
+}
+.barreFiltre {	
+	display: flex;
+align-items: center;
+width: auto;
+margin-right: 1.2em;
+border: 2px solid #D9D9D9;
+border-radius: 2em;
+font-weight: bold;
+margin-top: 20px;
+}		 
 /* MAIN corps de la page */	
 /* hebergement et populaire  */
 
 .hebergementethotelpopulaire
 {
 	
-  margin-left: 50px;
+  
   display: flex;
   flex-direction: column;
-}
+  flex-wrap: wrap;
+  align-items: center;
+  }
 
 .hebergementsetpop {
   text-align: left;
@@ -42,9 +57,15 @@
  {
   width: 100%;
   position: relative;
-  right: 4.5%;
+  right: 3%;
   margin-bottom: 20px;
+  border-top: transparent;
  }
+
+.hotel
+{
+	width:45%;
+}
 
 /*SECTION corp de la page partie hebergement populaire */
 
@@ -53,10 +74,13 @@
   position: relative;
   right:4.5%;
   display: flex;
+  padding: 20px 20px 20px 20px;
 }
+
 .fa-chart-line {
-    position: relative;
-    left: 22em;
+    position: absolute;
+    margin-left: 70%;
+	
    
 }
 }			  
@@ -72,14 +96,18 @@
    }
    
 /*FOOTER -pied de la page*/
-footer {
+.footer {
   border-radius: 0;
+}
+.containerActivites
+{
+	height: 500px;
 }
 
 
 /* CSS Reservia pour appareils mobiles */
 
-@media (min-width: 300px) and (max-width: 943px)
+@media (min-width: 333px) and (max-width: 631px)
 {
 	/*parametres generaux*/
 
@@ -116,8 +144,8 @@ footer {
  
  .Hebergement
  {
-	border-bottom: #0065fc 2px solid;
-    margin-left: -7.4em;
+	
+    margin-left: -8.4em;
     padding-top: 4em;
     flex:none;
     height: 21px;
@@ -129,16 +157,22 @@ footer {
   width: 180px;
 
  }
- .bordurenav:hover 
- {
-	 border-top-color: transparent;
-	 border-bottom-color:#0065fc;
-	
- }
+ .bordurenav {
+	border-bottom: 1px solid #f2f2f2;
+	border-top: transparent;
+   }
+
+   .bordurenav:hover 
+   {
+	 border-bottom: 3px solid #0065FC;
+	 border-top: transparent;
+	 cursor: pointer;
+    }
  .bordurenav:hover > a 
    {
-	 color: #0065fc;
-   }
+	 color: #0065FC;
+   } 
+   
  
  .Activitee 
  {
@@ -173,7 +207,7 @@ footer {
     margin-left: 300px;
     
     display: inline;
-    margin-left: -60px;
+    margin-left: -100px;
      float: left;
    }
 		
@@ -202,12 +236,6 @@ footer {
 	
 	}
 
-	 nav a:hover
-	{
-	color: #0065FC;
-	border-bottom: 3px solid #0065FC;
-	border-top: none;
-	}
 
 	.header
 	{
@@ -257,17 +285,19 @@ footer {
 	
 	  .titrefiltres {
 		margin-bottom: 10px;
+		margin-right: auto;
 	  }
 	
 	  .barreFiltre {
-		width: 50%;
+		width: auto;
 		margin-bottom: 10px;
+		margin-right: auto;
 	  }
 	
 	  .position {
 		position: absolute;
-		margin: 9% 0px 100px 55%;
-		width: 33%;
+		margin: 9.2% auto auto 55%;
+		width: auto;
 	  }
 
 /* MAIN corps de la page */
@@ -317,10 +347,22 @@ footer {
 	  
 	 
 	/*SECTION corp de la page partie hebergement populaire */
+	.imagepop {
+		background-color: white;
+		cursor: pointer;
+		float: left;
+		width: 50%;
+		height: 90%;
+		border-radius: 15px 0 0 15px;
+		margin: 2px 10px 0px 0px;
+		object-fit: cover;
+	  }
+	  
 	  
 	.pluspopulaires
 	{
-		width:90%;
+		width:95%;
+		right:2.5%;
         position: relative;
 		border-radius: 0;
 		display: flex;
@@ -329,14 +371,14 @@ footer {
 	}	
 	.hotelpop
 	{
-		margin: 12px 12px 12px 12px;
+		margin: 12px -10px 12px -10px;
 		height: 145px
 	}
 	
 	.fa-chart-line 
 	{
-	 position: relative;
-	 margin-left: 10px;
+	 position:absolute;
+	 margin-left: 60%;
 				
 	}
 			  

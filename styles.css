@@ -78,11 +78,15 @@ height: 50px;
 }
 .colornav13
 {
-color:#0065FC;
+color:black;
 }
 .colornav2
 {
-    color:black;
+  color:black
+}
+.colornav2:hover
+{
+    color:#0065FC;
 }
 .sizenav
 {
@@ -440,7 +444,7 @@ height: 99px ;
 }
 
 .activitepop1ou4 {
-  height: 400px;
+  height: 440px;
   width: 260px;
 }
 
