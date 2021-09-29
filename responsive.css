@@ -173,7 +173,7 @@ margin-top: 20px;
  .Hebergement
  {
 	
-    margin-left: -8.7em;
+    margin-left: -10.5em;
     padding-top: 4em;
     flex:none;
     height: 32px;
@@ -213,7 +213,7 @@ margin-top: 20px;
  }
  input[type=text]
  {
-	width: 200px;
+	width: 170px;
 	height: 46px;
 	margin: auto;
 	border-width: 1px 0 1px 0;
@@ -325,7 +325,7 @@ margin-top: 20px;
 	
 	  .position {
 		position: absolute;
-		margin: 9.2% auto auto 60%;
+		margin: 9.2% 52% 55%;
 		width: auto;
 	  }
 
