@@ -135,7 +135,7 @@ margin-top: 20px;
 
 /* CSS Reservia pour appareils mobiles */
 
-@media (min-width: 333px) and (max-width: 631px)
+@media (min-width: 319px) and (max-width: 631px)
 {
 	/*parametres generaux*/
 
@@ -176,7 +176,7 @@ margin-top: 20px;
     margin-left: -8.7em;
     padding-top: 4em;
     flex:none;
-    height: 39px;
+    height: 32px;
 	
  } 
  
@@ -208,7 +208,7 @@ margin-top: 20px;
 	padding-top: 4em;
 	flex: none;
     border-bottom: #f2f2f2 2px solid;
-	height: 39px;
+	height: 32px;
 	
  }
  input[type=text]
@@ -325,7 +325,7 @@ margin-top: 20px;
 	
 	  .position {
 		position: absolute;
-		margin: 9.2% auto auto 55%;
+		margin: 9% auto auto 64%;
 		width: auto;
 	  }
 
