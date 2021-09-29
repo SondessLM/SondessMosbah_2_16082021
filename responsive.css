@@ -338,6 +338,7 @@ margin-top: 20px;
 		display: flex;
 		flex-direction: column;
 		margin-right: inherit;
+		margin-left:15px
 		}
 	 
 	  /*SECTION corp de la page partie hebergement*/
@@ -407,7 +408,7 @@ margin-top: 20px;
 	.fa-chart-line 
 	{
 	 position:absolute;
-	 margin-left: 55%;
+	 margin-left: 57%;
 				
 	}
 			  
