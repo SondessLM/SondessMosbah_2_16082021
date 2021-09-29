@@ -325,7 +325,7 @@ margin-top: 20px;
 	
 	  .position {
 		position: absolute;
-		margin: 9.2% 52% 55%;
+		margin: 9.2% auto auto 55%;
 		width: auto;
 	  }
 
