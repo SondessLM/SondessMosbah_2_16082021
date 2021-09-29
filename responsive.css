@@ -173,7 +173,7 @@ margin-top: 20px;
  .Hebergement
  {
 	
-    margin-left: -10.5em;
+    margin-left: -10em;
     padding-top: 4em;
     flex:none;
     height: 32px;
@@ -318,14 +318,14 @@ margin-top: 20px;
 	  }
 	
 	  .barreFiltre {
-		width: 55%;
+		
 		margin-bottom: 10px;
 		margin-right: auto;
 	  }
 	
 	  .position {
 		position: absolute;
-		margin: 9.2% auto auto 55%;
+		margin: 9.2% auto auto 65%;
 		width: auto;
 	  }
 
