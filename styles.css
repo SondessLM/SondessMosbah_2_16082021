@@ -3,19 +3,19 @@
 {
     font-family: "Raleway";
 }
-.felxcenter
+.centre
 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.flexaround
+.espacement
 {
     display: flex;
     justify-content:space-around;
     align-items:center;
 }
-.flexbetween
+.alignement
 {
     display:flex;
     justify-content:space-between;
@@ -444,16 +444,16 @@ height: 99px ;
 }
 
 .activitepop1ou4 {
-  height: 440px;
+  height: 415px;
   width: 260px;
 }
 
 .activitepop2 {
-  height: 210px;
+  height: 190px;
 }
 
 .activitepop3 {
-  height: 120px;
+  height: 135px;
 }
 
 .activitepop5 {

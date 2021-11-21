@@ -83,7 +83,7 @@ margin-top: 20px;
 	
    
 }
-}			  
+			  
 
 
 /* fin Main*/
@@ -94,7 +94,7 @@ margin-top: 20px;
 	margin-top: 10px;
 	margin-bottom: 40px;
 	height: 500px;
-}
+ }
    
    .blocActivite
    {
@@ -130,12 +130,359 @@ margin-top: 20px;
 /*FOOTER -pied de la page*/
 .footer {
   border-radius: 0;
+ }
+
 }
 
-
 /* CSS Reservia pour appareils mobiles */
+@media (min-width: 374px) and (max-width: 631px){
+/*parametres generaux*/
 
-@media (min-width: 319px) and (max-width: 631px)
+	h1
+	{
+		font-size: 1em;
+	}
+
+	h2
+	{
+		
+		font-size: 1em;
+	}
+
+	h3
+	{
+		font-size: 0.9em;
+	}
+
+	p
+	{
+		font-size: 0.8em;
+	}
+
+	
+/*section HEADER -entete de la page-  */
+    /*le menu fait partie de l'entete logo et navigateur*/
+
+	
+	.largeurespace
+	{
+	width: 220px;
+ }
+ 
+ .Hebergement
+ {
+	
+    margin-left: -10em;
+    padding-top: 4em;
+    flex:none;
+    height: 32px;
+	
+ } 
+ 
+ .sizenav
+ {
+  width: 190px;
+
+ }
+ .bordurenav {
+	
+	border-bottom: 2px solid #f2f2f2;
+	border-top: transparent;
+   }
+
+   .bordurenav:hover 
+   {
+	 border-bottom: 2px solid #0065FC;
+	 border-top: transparent;
+	 cursor: pointer;
+    }
+ .bordurenav:hover > a 
+   {
+	 color: #0065FC;
+   } 
+   
+ 
+ .Activitee 
+ {
+	padding-top: 4em;
+	flex: none;
+    border-bottom: #f2f2f2 2px solid;
+	height: 32px;
+	
+ }
+ input[type=text]
+ {
+	width: 170px;
+	height: 46px;
+	margin: auto;
+	border-width: 1px 0 1px 0;
+ }
+
+ .fas.fa-map-marker-alt
+ {
+	height: 15px;
+ } 
+
+ .fas.fa-map-marker-alt
+ {
+	padding-top: 1px;
+	padding-bottom: 4px;
+ }
+
+   #sinscrire
+   {
+	   
+    margin-left: 300px;
+    
+    display: inline;
+    margin-left: -100px;
+     float: left;
+   }
+		
+ /*section HEADER*/
+     /* formulaire de recherche */
+
+	.formulaire h2
+	{
+		font-size: 1.4em;
+		font-weight:bold;
+		text-align: justify;
+	}
+	.formulaire p
+	 {
+      font-size: 1em;
+	}
+	.infotext
+	{
+		font-size: 0.98em;
+	}
+	#logo
+	{
+		
+		margin-bottom: 5em;
+		
+	
+	}
+
+
+	.header
+	{
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin: 0;
+	}
+
+	#search h1
+	{
+		width: 90%;
+	}
+	.boutonderecherche
+	{
+		display: none;
+	}
+	  .loupelogo :hover
+	  {
+		  cursor: pointer;
+	  }
+	 
+	
+	     
+	  /* parametres d'affichage du bouton loupe */
+	
+	 .loupelogo i {
+		display: inline;
+		color: white;
+		background-color: #0065fc;
+		padding: 18px;
+		border-radius: 18px;
+		position: relative;
+		right: 11px;
+	  }
+	 
+	 
+	
+	   /*formulaires des filtres*/
+	
+	  .filtres {
+		display: flex;
+		flex-direction:column;
+		flex-wrap: wrap;
+		align-content: space-between;
+		justify-content: space-between;
+	  }
+	
+	  .titrefiltres {
+		margin-bottom: 10px;
+		margin-right: auto;
+	  }
+	
+	  .barreFiltre {
+		
+		margin-bottom: 10px;
+		margin-right: auto;
+	  }
+	
+	  .position {
+		position: absolute;
+		margin: 9.5% auto auto 59%;
+		width: auto;
+	  }
+
+/* MAIN corps de la page */
+    /*hebergement et populaires*/
+
+      .hebergementethotelpopulaire
+      {
+		  
+		display: flex;
+		flex-direction: column;
+		margin-left:-8px;
+		margin-right: -36;
+		}
+	 
+	  /*SECTION corp de la page partie hebergement*/
+	  #Hebergement
+	  {
+	   width: 100%;
+	   position: relative;
+	   right: 9%;
+	   margin-bottom: 10px;
+	   border-radius: 0;
+	   background-color: white;
+		order: 2;
+	 }
+	  
+	  .hebergementmarseille {
+		
+		width:105%;
+		height: 100%;		
+
+	  }
+	 
+	  .hotel {
+		width: 100%;
+		height: 170px;
+		font-size: 14px;
+		
+		
+	  }
+	  .hotel img
+	  {
+		width: 100%;
+		height: 60%;
+		
+		
+	  } 
+	  
+	 
+	/*SECTION corp de la page partie hebergement populaire */
+	.imagepop {
+		background-color: white;
+		cursor: pointer;
+		float: left;
+		width: 50%;
+		height: 90%;
+		border-radius: 15px 0 0 15px;
+		margin: 2px 10px 0px 0px;
+		object-fit: cover;
+	  }
+	  
+	  
+	.pluspopulaires
+	{
+		width:95.5%;
+		right:2.5%;
+        position: relative;
+		border-radius: 0;
+		display: flex;
+		order: 1
+	
+	}	
+	.hotelpop
+	{
+		margin: 12px -10px 12px -10px;
+		height: 145px
+	}
+	
+	.fa-chart-line 
+	{
+	 position:absolute;
+	 margin-left: 56%;
+				
+	}
+			  
+	.etoilespop
+	{
+      margin: 56px 10px 60px 60px;
+	}
+	.etoilespop1
+     {
+     margin: 59px 10px 60px 60px;
+      } 
+      .etoilespop2
+     {
+	   margin: 60px 10px 60px 60px;
+     }
+	 
+/* FIN MAIN*/
+     /* SECTION fin page "Activités à Marseille"*/
+	 #activitesmarseille
+	 {
+		margin-top:-2em;
+	 }
+	 
+	  .containerActivites {
+		display:flex;
+		flex-direction: column;
+		height: auto;
+		margin: 0;
+		justify-content:center;
+			
+	  }
+	 
+	  .blocActivite {
+		width: 100%;
+	  }
+	 
+	  .Activite img {
+		width: 100%;
+		height: 120px;
+		
+	  }
+	 
+	  .Activite {
+		margin-bottom: 5%;
+		height: 170px;
+		
+	  }
+	  .nomactivite {
+		padding: 0 0 20px 20px;
+	
+	  
+	  }
+	  .Activite h3 {
+		 margin-left: 0.5em;
+		 text-align: left;
+		
+	  }
+	 
+	  /* FOOTER -pied de page */
+	 
+	  .Footer {
+		display: flex;
+		flex-direction: column;
+		margin-top: -20px;
+		height: max-content;
+		
+	  }
+	  .interieurFooter {
+		width: auto;
+	  }
+
+}
+	
+
+@media (min-width: 319px) and (max-width: 375px)
 {
 	/*parametres generaux*/
 
@@ -325,7 +672,7 @@ margin-top: 20px;
 	
 	  .position {
 		position: absolute;
-		margin: 9.2% auto auto 65%;
+		margin: 10.5% auto auto 75%;
 		width: auto;
 	  }
 
@@ -334,13 +681,12 @@ margin-top: 20px;
 
       .hebergementethotelpopulaire
       {
-		  
-		display: flex;
+		
 		flex-direction: column;
-		margin-right: inherit;
-		margin-left:15px
-		}
-	 
+		margin-left:-7px;
+		margin-right: -34px;
+	 }
+			 
 	  /*SECTION corp de la page partie hebergement*/
 	  #Hebergement
 	  {
@@ -352,12 +698,16 @@ margin-top: 20px;
 	   background-color: white;
 		order: 2;
 	 }
+	 .hebergementsetpop {
+    color: black;
+    margin-left: 26px;
+    }
 	  
 	  .hebergementmarseille {
 		
 		width:105%;
 		height: 100%;		
-
+        margin-left:6px
 	  }
 	 
 	  .hotel {
@@ -431,15 +781,16 @@ margin-top: 20px;
 	 {
 		margin-top:-2em;
 	 }
-	 
-	  .containerActivites {
-		display:flex;
+	 .containerActivites {
+		display: flex;
 		flex-direction: column;
 		height: auto;
-		margin: 0;
-		justify-content:center;
-			
-	  }
+		margin: 0px -37px -18px -1px;
+		padding-top: 13px;
+		justify-content: center;
+	}
+	 
+	
 	 
 	  .blocActivite {
 		width: 100%;
@@ -468,6 +819,12 @@ margin-top: 20px;
 	  }
 	 
 	  /* FOOTER -pied de page */
+	  footer {
+		background-color: #f2f2f2;
+		margin-top: 50px;
+		margin-right: -50px;
+		margin-left: -12px;
+	}
 	 
 	  .Footer {
 		display: flex;
